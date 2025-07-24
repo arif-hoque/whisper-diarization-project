@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+
+# Models (large files)
+models/whisper/
+models/pyannote/
+
+# Data
+input/*
+output/*
+*.wav
+*.mp3
+
+# Environment
+.env
+.envrc
+
+# OS
+.DS_Store
+Thumbs.db

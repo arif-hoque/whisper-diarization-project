@@ -1,0 +1,23 @@
+Step 1:
+- Install Dependencies:
+```bash
+bash setup.sh
+```
+
+Step 2:
+- Configure Hugging Face token in .env file
+
+Step 3:
+- Download models:
+```bash
+python scripts/download_models.py
+```
+
+Step 4:
+- Place audio files in input/ directory
+
+Step 5:
+- Run diarization:
+```bash
+python scripts/diarize.py
+```
