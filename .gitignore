@@ -10,7 +10,6 @@ models/whisper/
 models/pyannote/
 
 # Data
-input/*
 output/*
 *.wav
 *.mp3
